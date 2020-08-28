@@ -35,7 +35,7 @@ jobs:
           path: public
 
       - name: Deploy to AWS
-        uses:  github/deploy-nodejs@master
+        uses: docker://admiralawkbar/aws-nodejs:latest
         env:
           AWS_ACCESS_KEY: ${{ secrets.AWS_ACCESS_KEY }}
           AWS_SECRET_KEY: ${{ secrets.AWS_SECRET_KEY }}
