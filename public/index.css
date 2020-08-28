@@ -12,7 +12,7 @@
   text-align: center;
 
   font-size: 4em;
-  border: thin solid black;
+  border: thin solid #888;
 }
 
 #tictactoe td:hover {
